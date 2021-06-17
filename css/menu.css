@@ -333,3 +333,9 @@ main {
     background-color: black;
   }
 }
+@media (prefers-reduced-motion: reduce) {
+	* {
+		scroll-behavior: auto;
+	}
+}
+}
